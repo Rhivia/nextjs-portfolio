@@ -3,10 +3,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Container } from 'react-bootstrap';
 
+import Nav from '../src/components/Header';
+
 class Index extends Component {
   render () {
     return (
-      <Container>
+      <main className="">
         <Head>
           <title>NextJs Games Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
@@ -14,9 +16,11 @@ class Index extends Component {
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
 
-        <main className="mx-auto">
-          <h1 className="text-4xl font-bold text-center text-blue-500">
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <Nav />
+
+        <Container className="">
+          <h1 className="">
+            Welcome to your next tale.
           </h1>
 
           <p className="description">
@@ -24,10 +28,12 @@ class Index extends Component {
           </p>
 
           <p>
-            <Link href="/posts/first"><a>this page!</a></Link>
+            <a href="https://nextjs-portfolio.rhivia.vercel.app/">Production</a>
           </p>
-        </main>
-      </Container>
+
+          <div className="face-value"></div>
+        </Container>
+      </main>
     )
   }
 }
