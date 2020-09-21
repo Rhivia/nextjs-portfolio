@@ -8,9 +8,9 @@ import Nav from '../src/components/Header';
 class Index extends Component {
   render () {
     return (
-      <main className="">
+      <main className="base">
         <Head>
-          <title>NextJs Games Portfolio</title>
+          <title>NextJs Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -22,10 +22,6 @@ class Index extends Component {
           <h1 className="">
             Welcome to your next tale.
           </h1>
-
-          <p className="description">
-            Get started by editing <code>pages/index.js</code>
-          </p>
 
           <p>
             <a href="https://nextjs-portfolio.rhivia.vercel.app/">Production</a>

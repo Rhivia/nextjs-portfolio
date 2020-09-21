@@ -29,10 +29,10 @@ img {
 }
 
 .face-value {
-  border: solid 1.5em rgba(#000, .2);
+  /* border: solid 1.5em rgba(#000, .2); */
+  border-radius: 50%;
   height: 50vmin;
   max-width: 40em;
-  max-height: 30em;
   background: url('../../public/img/face-value.png') 50%/ cover border-box padding-box
 }
 
