@@ -73,7 +73,7 @@ const options = {
             type: "image",
             image: {
                 // src: "img/600x600.jpg" // pinto
-                src: "img/leaf.png" // folha
+                src: "https://freeimage.host/i/2lTmqF" // "img/leaf.png" // folha
             },
             width: 50,
             height: 50
