@@ -1,6 +1,6 @@
 # Game Design:
 
-Start the [journey](https://nextjs-portfolio.rhivia.vercel.app/).
+Start your [journey](https://nextjs-portfolio.rhivia.vercel.app/).
 
 ## Woven with:
 

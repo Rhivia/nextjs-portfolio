@@ -28,6 +28,12 @@ img {
   display: block;
 }
 
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .face-value {
   /* border: solid 1.5em rgba(#000, .2); */
   border-radius: 50%;

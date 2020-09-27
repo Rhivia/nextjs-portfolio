@@ -5,8 +5,10 @@ import Link from 'next/link';
 class Navigation extends Component {
 
   render () {
+    // header
+    
     return (
-      <Navbar className="header">
+      <Navbar className=""> 
         <Navbar.Brand href="#home">My Journey</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
