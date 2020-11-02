@@ -6,11 +6,11 @@ import ParticlesComponent from './ParticlesComponent';
 class Home extends Component {
     render () {
         return <>
-            {/* <Nav /> */}
+            <Nav />
 
-            {/* <Container className="">
+            <Container className="">
                 <h1 className="">
-                    Welcome to your next tale.
+                    It begins.
                 </h1>
 
                 <p>
@@ -18,9 +18,9 @@ class Home extends Component {
                 </p>
 
                 <div className="face-value"></div>
-            </Container> */}
+            </Container>
 
-            <ParticlesComponent />
+            {/* <ParticlesComponent /> */}
         </>
     }
 }

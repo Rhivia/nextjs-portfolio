@@ -3,10 +3,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Link from 'next/link';
 
 class Navigation extends Component {
-
-  render () {
-    // header
-    
+  render () {    
     return (
       <Navbar className=""> 
         <Navbar.Brand href="#home">My Journey</Navbar.Brand>
@@ -17,7 +14,7 @@ class Navigation extends Component {
               <Link href="/"><a>Home</a></Link>
             </Nav.Link>
             <Nav.Link>
-              <Link href="/posts/first"><a>Link</a></Link>
+              <Link href="/dashboard"><a>Dashboard</a></Link>
             </Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
